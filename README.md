@@ -15,7 +15,7 @@ That means it might sometimes not return what you say... but I tested it over 19
 
 It is a Music Bot, as other interactions are not that optimal, like kick / ban, you can't control that with voice 100% sure...
 
-[Check out the **Show-off and Tutorial Video**](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#explanation-and-show-off-video)
+[Check out the **Show-off and Tutorial Video**](https://github.com/SHASHANK2341/voice-controlled-discord-bot/blob/main/README.md#explanation-and-show-off-video)
 
 ![image](https://user-images.githubusercontent.com/68145571/182658779-1638aed0-10e3-4c23-b95d-1f7e36d8fc82.png)
 
@@ -35,8 +35,8 @@ It is a Music Bot, as other interactions are not that optimal, like kick / ban, 
 
 >![image](https://user-images.githubusercontent.com/68145571/182658298-f079f132-29ad-4259-8328-d9c1ebfad280.png)
 
-# How to use the Bot? | [Check the Video](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#explanation-and-show-off-video)
- 0. *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / [self-host it!](https://github.com/Tomato6966/voice-controlled-discord-bot/blob/main/README.md#self-hosting)
+# How to use the Bot? | [Check the Video](https://github.com/SHASHANK2341/voice-controlled-discord-bot/blob/main/README.md#explanation-and-show-off-video)
+ 0. *[Join the testing Server](https://discord.gg/TWRJH6ACvR) - Prefix: `v!`* / [self-host it!](https://github.com/SHASHANK2341/voice-controlled-discord-bot/blob/main/README.md#self-hosting)
  1. Join a Discord Voice-Channel, *in a Server, where the Bot is in!*
  2. Type in a Text-Channel `v!control` or `@Bot control`
 	 a. *Now it'll only listen and be controlable by YOU* 
@@ -53,20 +53,20 @@ It is a Music Bot, as other interactions are not that optimal, like kick / ban, 
 	 b. Also Make sure to Reduce background noices, speak clear and fluently to be "recogniced" by the bot pretty well!
 
 # Self-Hosting
-1. Download the repo | [Click-here](https://github.com/Tomato6966/voice-controlled-discord-bot/archive/refs/heads/main.zip) 
-	- or: `git clone https://github.com/Tomato6966/voice-controlled-discord-bot`
+1. Download the repo | [Click-here](https://github.com/SHASHANK2341/voice-controlled-discord-bot/archive/refs/heads/main.zip) 
+	- or: `git clone https://github.com/SHASHANK2341/voice-controlled-discord-bot.git`
 2. Rename `example.env` to `.env` and fill out the variables *(get wit.ai `Server Access Token` from [wit.ai](https://wit.ai))*
 3. `yarn install` / `npm install` (make sure you have `rust` & `nodejs` on your system)
 4. Type `node index.js` / `npm start`
 
 ## Want to add more music commands?
 
-Take a look at my Light-Music-Bot Project, which is similar to this one (for the music system) https://github.com/Tomato6966/light-music-bot
+Take a look at my Light-Music-Bot Project, which is similar to this one (for the music system) https://github.com/SHASHANK2341/light-music-bot
 
 # Resources used (modules & credits)
 - `node-fetch@2` for api Calls
 - `discord.js@latest` as my Discord-Bot-Wrapper
-- `@discordjs/voice`, `@discordjs/opus`, `discord-ytdl-core`, `ytdl-core`, `youtube-sr`, `ffmpeg`, `libsodium-wrappers` for the Music System (Its similar to [my light-music-bot](https://github.com/Tomato6966/light-music-bot))
+- `@discordjs/voice`, `@discordjs/opus`, `discord-ytdl-core`, `ytdl-core`, `youtube-sr`, `ffmpeg`, `libsodium-wrappers` for the Music System (Its similar to [my light-music-bot](https://github.com/SHASHANK2341/light-music-bot))
 - `ffmpeg`, `prism-media`, `node-crc` for parsing / Piping / Transforming Audio Streams, -Buffers and -Files.
 - `dotenv` for allowing to use .env ENVIRONMENT Variables
 
